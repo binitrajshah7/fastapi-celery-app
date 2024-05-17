@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "0f3b9648-200c-46f1-8e8f-abd0262cc439",
+		"name": "fastapi_celery_app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26582148"
+	},
+	"item": [
+		{
+			"name": "generate_primes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"number\": 15\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://0.0.0.0:8888/api/v1/generate_primes",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8888",
+					"path": [
+						"api",
+						"v1",
+						"generate_primes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

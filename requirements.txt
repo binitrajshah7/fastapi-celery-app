@@ -1,0 +1,11 @@
+fastapi
+pydantic
+uvicorn
+SQLAlchemy
+python-dotenv
+asyncpg
+aiomysql
+geoalchemy2
+requests
+redis
+celery
